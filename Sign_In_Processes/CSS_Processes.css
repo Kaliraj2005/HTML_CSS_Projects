@@ -1,0 +1,95 @@
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+    
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ccc;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+table {
+    border-collapse: collapse;
+    border: none; /* remove border from table */
+}
+
+th, td {
+    border: none; /* remove border from table cells */
+    padding: 10px;
+}
+
+label {
+    text-align: right;
+    padding-right: 10px;
+}
+
+input[type="text"], input[type="password"], input[type="email"] {
+    width: 100%;
+    height: 40px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    width: 50%;
+    height: 40px;
+    background-color: #333;
+    color: #fff;
+    padding: 10px ;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #444;
+    
+}
+
+.container {
+    border : 3px #333;
+    border-style: solid;
+    margin-left: 75px;
+    max-width: 500px; /* adjust the width as needed */
+    margin-top: 300px;
+    margin-left: 500px;
+    text-align: center; /* center the h1 and form */
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 5px 10px 0px inset;
+}
+
+.container h1 {
+    margin-bottom: 20px; /* add some space between the h1 and form */
+}
+.container form{
+    margin-left: 75px;
+}
+
